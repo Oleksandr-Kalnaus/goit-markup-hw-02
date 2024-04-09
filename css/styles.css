@@ -15,10 +15,13 @@ a {
 ul {
 	list-style-type: none;
 }
-.header{
+.header {
 	font-size: 16px;
 }
-.nav-link{
+.nav-item {
+	color: #2e2f42;
+}
+.nav-link {
 	font-weight: 500;
 	color: #434455;
 	line-height: 1.5;
@@ -27,10 +30,10 @@ ul {
 .nav-link:active {
 	color: #404bbf;
 }
-.contacts{
+.contacts {
 	font-style: normal;
 }
-.contacts-link{
+.contacts-link {
 	font-weight: 400;
 	color: #434455;
 	line-height: 1.5;
@@ -48,19 +51,23 @@ ul {
 .header-logo .logo-part {
 color: #2e2f42;
 }
-.hero{
+.hero {
 	font-family: "Roboto", sans-serif;
 	background-color: #2e2f42;
 }
-.button{
+.button {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	color: #fff;
 	background-color: #4d5ae5;
+	cursor: pointer;
 }
-.button:hover .button:focus{
+.button:hover {
+	background-color: #404bbf;
+}
+.button:focus {
 	background-color: #404bbf;
 }
 h1 {
@@ -71,58 +78,55 @@ h1 {
 	text-align: center;
 	color: #fff;
 }
-.content{
+.content {
 font-family: "Roboto", sans-serif;
 }
-.adv-content{
+.adv-content {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
 }
-.adv-text{
+.adv-text {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
 }
-
-.team{
+.team {
 	font-family: "Roboto", sans-serif;
 	color: #2e2f42;
 	background-color: #F4F4FD;
+	letter-spacing: 0.02em;
 }
-.team-list{
+.team-list {
 	background-color: #fff;
 }
-.ourteam{
+.ourteam {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
-	letter-spacing: 0.02em;
 	text-align: center;
 	text-transform: capitalize;
 }
-.team-content{
+.team-content {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
-	letter-spacing: 0.02em;
 }
-.team-text{
+.team-text {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
-	letter-spacing: 0.02em;
 	color: #434455;
 }
-.portfolio{
+.portfolio {
 	font-family: "Roboto", sans-serif;
 	color: #2e2f42;
 }
-.ourportfolio{
+.ourportfolio {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
@@ -130,25 +134,31 @@ font-family: "Roboto", sans-serif;
 	text-align: center;
 	text-transform: capitalize;
 }
-.portfolio-content{
+.portfolio-item {
+	background-color: #FFFFFF;
+}
+.portfolio-content {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 }
-.portfolio-text{
+.portfolio-text {
 	font-weight: 400;
 	font-size: 16px;
 	letter-spacing: 0.02em;
 	line-height: 1.5;
 	color: #434455;
 }
-.footer{
+.footer {
 	font-family: "Roboto", sans-serif;
+	background-color: #2e2f42;
 }
-.footer-offer{
+.footer-offer {
 	font-weight: 400;
 	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 	color: #f4f4fd;
 }
 .footer-logo .logo-part {
