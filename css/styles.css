@@ -14,12 +14,9 @@ ul {
 }
 .header{
 	font-size: 16px;
-	color: #2e2f42;
 }
 .nav-link{
 font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
 color: #434455;
 }
 .nav-link:active {
@@ -28,6 +25,7 @@ color: #434455;
 .contacts-link{
 		font-weight: 400;
 		color: #434455;
+		font-style: normal;
 }
 .logo {
 	font-family: "Raleway", sans-serif;
@@ -42,39 +40,78 @@ color: #434455;
 color: #2e2f42;
 }
 .hero{
-	background-color: #2e2f42;
-	width: 1440px;
-	height: 600px;
+	font-family: "Roboto", sans-serif;
 }
 .button{
+	font-weight: 500;
+	font-size: 16px;
 	color: #fff;
-	border-radius: 4px;
-	padding: 16px 32px;
-	width: 169px;
-	height: 56px;
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 	background-color: #4d5ae5;
 }
 .button:hover{
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 	background-color: #404bbf;
 }
 h1 {
-	font-family: "Roboto", bold;
 	font-weight: 700;
-		font-size: 56px;
-		line-height: 1.07;
-		letter-spacing: 0.02em;
-		text-align: center;
-		color: #fff;
+	font-size: 56px;
+	color: #fff;
+}
+.content{
+font-family: "Roboto", sans-serif;
+}
+.advantages{
+	font-weight: 500;
+	font-size: 20px;
+	color: #2e2f42;
+}
+.advantages-list{
+	font-weight: 400;
+	font-size: 16px;
+	color: #434455;
 }
 
-
-
-
-
-
-
+.team{
+	font-family: "Roboto", sans-serif;
+	color: #2e2f42;
+}
+.ourteam{
+	font-weight: 700;
+	font-size: 36px;
+}
+.team-content{
+	font-weight: 500;
+	font-size: 20px;
+}
+.team-text{
+	font-weight: 400;
+	font-size: 16px;
+	color: #434455;
+}
+.portfolio{
+	font-family: "Roboto", sans-serif;
+	color: #2e2f42;
+}
+.ourportfolio{
+	font-weight: 700;
+	font-size: 36px;
+}
+.portfolio-content{
+	font-weight: 500;
+	font-size: 20px;
+}
+.portfolio-text{
+	font-weight: 400;
+	font-size: 16px;
+	color: #434455;
+}
+.footer{
+	font-family: "Roboto", sans-serif;
+}
+.footer-offer{
+	font-weight: 400;
+	font-size: 16px;
+	color: #f4f4fd;
+}
 .footer-logo .logo-part {
 	color: #f4f4fd;
 }
